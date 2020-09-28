@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Question from "./Question";
+import asian from "./image/asian.jpg";
 
 const Main = () => {
   return (
@@ -9,8 +10,11 @@ const Main = () => {
         <Container>
           <Row>
             <Col xs={11} className="app">
-              Prepare Children to Return to the Classroom
+              <Col>Prepare Children to Return to the Classroom</Col>
+              <img className="pic" src={asian} />
+              <Col></Col>
             </Col>
+
             <Col xs={1}>
               <Question />
             </Col>
