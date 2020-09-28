@@ -9,8 +9,14 @@ const Main = () => {
     <div>
       <Grid container spacing={5}>
         <Grid item xs={6}>
-          <Typography>should</Typography>
           <img src={asian} className="pic " />
+          <Typography>should kids go back to school?</Typography>
+          <p>lkdalk lklaska ioi asdoisda oisd aosid oidsa oaisd</p>
+          <p>lkdalk lklaska ioi asdoisda oisd aosid oidsa oaisd</p>
+          <p>lkdalk lklaska ioi asdoisda oisd aosid oidsa oaisd</p>
+          <p>lkdalk lklaska ioi asdoisda oisd aosid oidsa oaisd</p>
+          <p>lkdalk lklaska ioi asdoisda oisd aosid oidsa oaisd</p>
+          <p>lkdalk lklaska ioi asdoisda oisd aosid oidsa oaisd</p>
         </Grid>
         <Grid item xs={3}>
           <Question />
